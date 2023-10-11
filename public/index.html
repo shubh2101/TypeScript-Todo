@@ -11,15 +11,24 @@
   body {
     background-color: #444343;
   }
+
+  #todo {
+    display: flex;
+    justify-content: center;
+  }
 </style>
 
 <body>
-  <h2 style="color: rgb(252, 229, 202);">TODO List</h2>
-  <ul id="list"></ul>
-  <form id="new-task-form">
-    <input type="text" id="new-task-title" />
-    <button type="submit">Add</button>
-  </form>
+  <div id="todo">
+    <div>
+      <h2 style="color: rgb(252, 229, 202);">TODO List</h2>
+      <ul id="list"></ul>
+      <form id="new-task-form">
+        <input type="text" id="new-task-title" />
+        <button type="submit">Add</button>
+      </form>
+    </div>
+  </div>
 </body>
 
 </html>

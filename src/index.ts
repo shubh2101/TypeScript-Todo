@@ -33,6 +33,7 @@ form?.addEventListener("submit", (event) => {
 function addNewtask(task: Task) {
   const item = document.createElement("li");
   const label = document.createElement("label");
+  label.style.color = "rgb(252, 229, 202)"
   const checkbox = document.createElement("input");
   checkbox.type = "checkbox";
   checkbox.addEventListener("change", () => {
